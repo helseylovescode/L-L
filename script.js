@@ -23,11 +23,11 @@ if($("#grid")){
     { title:"Golden hour vows",  category:"Weddings",  src:"assets/WhatsApp Image 2026-11-03 at 09.40.19.jpeg",  alt:"Couple during golden hour ceremony" },
     { title:"Studio portrait",   category:"Portraits", src:"assets/WhatsApp Image 2026-11-03 at 10.27.03.jpeg", alt:"Studio portrait session" },
     { title:"Product launch",    category:"Brand",     src:"assets/WhatsApp Image 2026-11-03 at 10.27.04.jpeg",     alt:"Brand product launch shoot" },
-    { title:"First dance",       category:"Weddings",  src:"images/weddings-2.jpg",  alt:"Couple sharing their first dance" },
-    { title:"Quiet morning",     category:"Portraits", src:"images/portraits-2.jpg", alt:"Candid morning portrait" },
-    { title:"Team headshots",    category:"Brand",     src:"images/brand-2.jpg",     alt:"Corporate team headshots" },
-    { title:"Ceremony light",    category:"Weddings",  src:"images/weddings-3.jpg",  alt:"Wedding ceremony in natural light" },
-    { title:"Family together",   category:"Portraits", src:"images/portraits-3.jpg", alt:"Family portrait session" }
+    { title:"First dance",       category:"Weddings",  src:"assets/IMG-20261103-WA0023.jpg",  alt:"Couple sharing their first dance" },
+    { title:"Quiet morning",     category:"Portraits", src:"assets/IMG-20261103-WA0020.jpg", alt:"Candid morning portrait" },
+    { title:"Team headshots",    category:"Brand",     src:"assets/IMG-20261103-WA0013.jpg",     alt:"Corporate team headshots" },
+    { title:"Ceremony light",    category:"Weddings",  src:"assets/IMG-20261103-WA0022.jpg",  alt:"Wedding ceremony in natural light" },
+    { title:"Family together",   category:"Portraits", src:"assets/IMG-20261103-WA0016.jpg", alt:"Family portrait session" }
   ];
 
   const cats=["All",...new Set(photos.map(p=>p.category))];
